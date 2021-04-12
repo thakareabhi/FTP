@@ -16,7 +16,7 @@
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        app:srcCompat="@drawable/image_three" />
+        app:srcCompat="@drawable/download" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="FEEL" />
+            android:text="predict" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -39,6 +39,12 @@
             android:layout_weight="1"
             android:layout_margin="20dp"
             app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:id="@+id/textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="bottom"/>
 
     </LinearLayout>
 
